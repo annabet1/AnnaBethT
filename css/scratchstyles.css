@@ -1,0 +1,77 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color:beige;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white !important;
+    font-weight: bolder !important;
+}
+.font-weight-bold{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black !important;
+}
+.love{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: darkgreen !important;
+    font-weight: bolder !important;
+    outline: 1px black;
+    text-align:center;
+}
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white !important
+}
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color:cadetblue !important;
+    font-weight: bolder !important;
+}
+
+/*div styles*/
+.common{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position:absolute;
+    z-index: 1;
+    background-color:darkolivegreen
+
+}
+.middle{
+    top: 50px;
+    left: 30px;
+    right: 0px;
+}
+.bottom{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color:darkolivegreen;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display:block;
+    margin:auto;
+    border: 15px double darkolivegreen
+}
+.vidcenter{
+    display:block;
+    margin:auto;
+    border: 10px solid black;
+}
+.resume{
+    text-align: center !important;
+    color:black !important;
+    font-weight: bold !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
